@@ -1,6 +1,5 @@
 import patient
 import doctor
-import appointment
 import billing
 
 def main_menu():
