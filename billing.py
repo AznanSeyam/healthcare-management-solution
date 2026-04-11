@@ -10,7 +10,6 @@ def billing_menu():
 def generate_bill():
     bill_id = input("Enter Bill ID: ")
     patient_id = input("Enter Patient ID: ")
-    amount = input("Enter Amount: ")
     database.add_bill(bill_id, patient_id, amount)
 
 def view_bills():
