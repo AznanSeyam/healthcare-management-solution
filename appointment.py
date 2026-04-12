@@ -21,7 +21,6 @@ def appointment_menu():
 def book_appointment():
     appointment_id = input("Enter Appointment ID: ")
     patient_id = input("Enter Patient ID: ")
-    doctor_id = input("Enter Doctor ID: ")
     date = input("Enter Date (YYYY-MM-DD): ")
     time = input("Enter Time (HH:MM): ")
     database.book_appointment(appointment_id, patient_id, doctor_id, date, time)
