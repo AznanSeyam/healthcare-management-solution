@@ -4,7 +4,6 @@ def patient_menu():
     while True:
         print("\nPatient Management")
         print("1. Add Patient")
-        print("2. View Patients")
         print("3. Update Patient")
         print("4. Delete Patient")
 
