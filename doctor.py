@@ -3,7 +3,7 @@ import database
 def doctor_menu():
     
         print("\nDoctor Management")
-        print("1. Add Doctor")
+        print("1. Add Doctor"
         print("4. Delete Doctor")
         print("5. Go Back")
 
