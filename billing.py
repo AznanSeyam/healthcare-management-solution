@@ -5,7 +5,6 @@ def billing_menu():
         print("\nBilling Management")
    
 
-        
 
 def generate_bill():
     bill_id = input("Enter Bill ID: ")
